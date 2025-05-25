@@ -1,0 +1,17 @@
+@import "tailwindcss";
+ @theme{
+    --color-one:rgba(10, 166, 165, 1);
+    --color-two:rgba(255, 255, 255, 0.8);
+    --color-three:rgba(79, 79, 79, 1);
+    --color-four:rgba(10, 166, 165, 1);
+    --color-five:rgba(255, 255, 255, 0.3);
+    --color-six:rgba(10, 166, 165, 1);   
+    --color-seven:rgba(52, 52, 52, 1);   
+    --color-eight:rgba(102, 102, 102, 1);   
+    --color-nine:rgba(240, 250, 249, 1);   
+    --color-ten:rgba(89, 91, 91, 1);   
+    --color-elven:rgba(240, 250, 249, 1);   
+    --color-threeteen:rgba(53, 53, 53, 1);   
+    --color-fourteen:rgba(10, 166, 165, 1);
+    
+ }
