@@ -16,8 +16,7 @@ import { FaTools } from "react-icons/fa";
 import man from "../assets/man.png";
 import mantwo from "../assets/mantwo.png";
 import manthree from "../assets/manthree.png";
-import chaer from '../assets/chaer.png'
-import { Footer } from "./Footer";
+import Footer  from "./Footer";
 import { useLocation } from 'react-router-dom';
 
 
@@ -118,7 +117,7 @@ service offerings, we ensure a personalized experience.`,
   const handleImageClick = (item) => {
     setSelected(item);
 
-    setRotation(item.angle + 120);
+    setRotation(0);
   };
 
   return (
@@ -134,10 +133,10 @@ service offerings, we ensure a personalized experience.`,
         style={{ backgroundImage: `url(${Pichome})` }}
       >
         <div className="w-[90%]" data-aos="fade-up">
-          <p className="w-[90%] mx-auto text-3xl md:text-4xl lg:text-8xl text-white text-center font-bold">
+          <p className="w-[90%] mx-auto text-3xl md:text-4xl judson-bold lg:text-8xl text-white text-center font-bold">
             Enhance Visitor Experience with sea go{" "}
           </p>
-          <p className="w-full text-[18px] md:text-[24px] lg:text-[32px] text-white text-center font-normal mt-5">
+          <p className="w-full text-[18px] md:text-[24px] open-sans-regular  lg:text-[32px] text-white text-center font-normal mt-5">
             We offer innovative digital solutions for tourist villages to
             streamline communication and improve visitor experience. Join our
             platform today for advanced tools that support your growth
@@ -145,11 +144,11 @@ service offerings, we ensure a personalized experience.`,
         </div>
 
         <div className="flex flex-wrap  justify-center gap-4" data-aos="zoom-in-up">
-          <button className="text-[20px] w-[296px] h-[72px] bg-four rounded-3xl text-white delay-100 transform transition hover:bg-gradient-to-b from-six to-four hover:scale-95">
+          <button className="text-[20px] open-sans-light w-[296px] h-[72px] bg-one rounded-3xl text-white delay-100 transform transition hover:bg-gradient-to-b from-six to-one hover:scale-95">
             Discover Our Solutions
           </button>
 
-          <button className="text-[20px] w-[296px] h-[72px] bg-five rounded-3xl text-white delay-300 transform transition hover:scale-95">
+          <button className="text-[20px] open-sans-light w-[296px] h-[72px] bg-five rounded-3xl text-white delay-300 transform transition hover:scale-95">
             Contact Us
           </button>
         </div>
@@ -182,13 +181,13 @@ service offerings, we ensure a personalized experience.`,
       {/* our services */}
       <div id="Services" className="w-screen py-10 px-8">
         <p
-          className="text-center font-normal text-six text-[32px]"
+          className="text-center judson-regular  font-normal text-six text-[32px]"
           data-aos="fade-down"
         >
           Our Services
         </p>
         <p
-          className="text-center font-normal text-seven text-[24px] my-5"
+          className="text-center open-sans-regular font-normal text-seven text-[24px] my-5"
           data-aos="fade-up"
         >
           At sea go, we provide a comprehensive digital ecosystem tailored for
@@ -196,14 +195,14 @@ service offerings, we ensure a personalized experience.`,
           management, enhance visitor experience, and empower service providers
         </p>
 
-        <div className="flex flex-col gap-8 items-center mx-auto">
+        <div className="flex flex-col gap-8 items-center mx-auto judson-regular">
           <div className="flex gap-8 flex-wrap justify-center">
             <div
               className="text-center p-10 gap-2 flex flex-col items-center bg-nine w-[300px] lg:w-[600px] transition-all hover:scale-105 hover:shadow-2xl"
               data-aos="fade-right"
             >
-              <BsPhoneFill className="w-10 h-[64px] text-four" />
-              <p className="text-[32px] font-normal text-four">User App</p>
+              <BsPhoneFill className="w-10 h-[64px] text-one" />
+              <p className="text-[32px] font-normal text-one ">User App</p>
               <p className="text-[20px] font-normal text-eight">
                 Explore, request services, and stay updated on village
                 events—all in one place.
@@ -227,7 +226,7 @@ service offerings, we ensure a personalized experience.`,
                 />
               </svg>
 
-              <p className="text-[32px] font-normal text-four">
+              <p className="text-[32px] font-normal text-one">
                 Gatekeeper App
               </p>
               <p className="text-[20px] font-normal text-eight">
@@ -242,8 +241,8 @@ service offerings, we ensure a personalized experience.`,
               className="text-center p-10 flex flex-col items-center bg-nine w-[300px] lg:w-[600px] transition-all hover:scale-105 hover:shadow-2xl"
               data-aos="fade-right"
             >
-              <RiHome5Fill className="w-10 h-[64px] text-four" />
-              <p className="text-[32px] font-normal text-four">
+              <RiHome5Fill className="w-10 h-[64px] text-one" />
+              <p className="text-[32px] font-normal text-one">
                 Village Dashboard
               </p>
               <p className="text-[20px] font-normal text-eight">
@@ -268,7 +267,7 @@ service offerings, we ensure a personalized experience.`,
                 />
               </svg>
 
-              <p className="text-[32px] font-normal text-four">
+              <p className="text-[32px] font-normal text-one">
                 Provider Dashboard
               </p>
               <p className="text-[20px] font-normal text-eight">
@@ -281,15 +280,15 @@ service offerings, we ensure a personalized experience.`,
       </div>
 
       {/* how it works */}
-    <div id="Work" className="w-screen py-10 px-6 md:px-8 bg-elven">
+    <div id="Work" className="w-screen py-10 px-6 md:px-8 bg-elven judson-regular">
   <p
-    className="text-center font-normal text-six text-[32px] md:text-[48px]"
+    className="text-center font-normal judson-regular text-six text-[32px] md:text-[48px]"
     data-aos="zoom-in-up"
   >
     How Does sea go Work?
   </p>
   <p
-    className="text-center font-normal text-seven text-[18px] md:text-[24px] my-5 max-w-3xl mx-auto"
+    className="text-center font-normal judson-regular text-seven text-[18px] md:text-[24px] my-5 max-w-3xl mx-auto"
     data-aos="fade-up"
   >
     We harness technology to connect all stakeholders in a tourist village
@@ -340,8 +339,8 @@ service offerings, we ensure a personalized experience.`,
               className={`flex items-center justify-center w-[80px] sm:w-[110px] md:w-[150px] h-[80px] sm:h-[110px] md:h-[150px] rounded-full border-2 absolute cursor-pointer transition-transform hover:scale-110
                 ${
                   isActive
-                    ? "bg-four text-white shadow-2xl scale-110"
-                    : "bg-five text-four shadow-md"
+                    ? "bg-one text-white shadow-2xl scale-110"
+                    : "bg-five text-one shadow-md"
                 }
               `}
               style={{
@@ -353,8 +352,8 @@ service offerings, we ensure a personalized experience.`,
               <item.src
                 className={`${
                   isActive
-                    ? "bg-four text-white scale-110"
-                    : "bg-five text-four"
+                    ? "bg-one text-white scale-110"
+                    : "bg-five text-one"
                 } w-6 sm:w-9 md:w-12 h-6 sm:h-9 md:h-12`}
               />
             </div>
@@ -364,7 +363,7 @@ service offerings, we ensure a personalized experience.`,
     </div>
 
     <div className="text-start max-w-xl px-2 sm:px-4">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-normal text-four mb-2">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-normal judson-regular  text-one mb-2">
         {selected.title}
       </h2>
       <p className="text-[16px] sm:text-[18px] md:text-[20px] text-ten">
@@ -378,18 +377,17 @@ service offerings, we ensure a personalized experience.`,
       {/* who we are */}
       <div id="About" className="w-screen py-10 px-8">
         <p
-          className="text-center font-normal text-six text-[48px]"
+          className="text-center judson-regular  font-normal text-six text-[48px]"
           data-aos="zoom-in-up"
         >
           Who We Are{" "}
         </p>
         <p
-          className="text-center font-normal text-seven text-[24px] my-5"
+          className="text-center open-sans-regular font-normal text-seven text-[24px] my-5"
           data-aos="fade-up"
         >
-          To be the trusted partner in developing tourist villages by delivering
-          modern technologies that enrich the visitor experience and streamline
-          operations.
+         At sea go, we are driven by a clear vision, a powerful mission, and strong values. We aim to transform the tourist
+village experience through cutting-edge technology, meaningful collaboration, and sustainable innovation.
         </p>
         <div className=" flex flex-wrap justify-center gap-4 ">
           {/*  */}
@@ -412,13 +410,13 @@ service offerings, we ensure a personalized experience.`,
               />
             </svg>
             <p
-              className=" text-start w-full font-normal text-six text-[32px]"
+              className=" judson-regular text-start w-full font-normal text-six text-[32px]"
               data-aos="zoom-in-up"
             >
               Our Vision{" "}
             </p>
             <p
-              className=" font-normal text-start text-seven text-[20px] my-5"
+              className=" font-normal open-sans-regular text-start text-seven text-[20px] my-5"
               data-aos="fade-up"
             >
               To be the trusted partner in developing tourist villages by
@@ -453,13 +451,13 @@ service offerings, we ensure a personalized experience.`,
             </svg>
 
             <p
-              className=" text-start w-full font-normal text-six text-[32px]"
+              className="judson-regular text-start w-full font-normal text-six text-[32px]"
               data-aos="zoom-in-up"
             >
               Our Mission{" "}
             </p>
             <p
-              className=" font-normal text-start text-seven text-[20px] my-5"
+              className=" font-normal open-sans-regular text-start text-seven text-[20px] my-5"
               data-aos="fade-up"
             >
               {" "}
@@ -475,7 +473,7 @@ service offerings, we ensure a personalized experience.`,
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_977_1520)">
+              <g clipPath="url(#clip0_977_1520)">
                 <path
                   d="M95.3126 37.3242H65.6251L65.6251 47.4532C65.6251 54.8086 60.336 61.5156 53.0177 62.252C44.6017 63.0983 37.5001 56.5059 37.5001 48.2617V24.6875L32.713 27.5645C24.0626 32.7735 18.7579 42.1289 18.7579 52.2461L3.13289 61.2891C0.154373 62.9983 -0.896408 66.8321 0.837967 69.8106L16.463 96.8809C18.1964 99.8594 22.0294 100.885 25.0079 99.1758L45.2032 87.5059H71.8829C78.7677 87.5059 84.3829 81.8906 84.3829 75.0059C89.5606 75.0059 93.7579 70.8086 93.7579 65.6309V56.25H95.3204C97.9083 56.25 100.008 54.1504 100.008 51.5625L100.008 42.1875C100 39.5899 97.9102 37.3242 95.3126 37.3242ZM124.16 30.1758L108.545 3.10549C106.812 0.126977 102.979 -0.898413 100 0.810571L79.8048 12.4805H67.5841C60.1915 12.4805 52.9493 14.5528 46.6661 18.4629C44.8634 19.6094 43.7501 21.6016 43.7501 23.75L43.75 48.4375C43.75 52.7598 47.2422 56.25 51.5625 56.25C55.8848 56.25 59.375 52.7578 59.375 48.4375V31.0742H95.3125C101.354 31.0742 106.25 35.9707 106.25 42.0117V47.5782L121.875 38.5449C124.863 36.9922 125.879 33.1641 124.16 30.1758Z"
                   fill="#0AA6A5"
@@ -489,13 +487,13 @@ service offerings, we ensure a personalized experience.`,
             </svg>
 
             <p
-              className=" text-start w-full font-normal text-six text-[32px]"
+              className="  judson-regular text-start w-full font-normal text-six text-[32px]"
               data-aos="zoom-in-up"
             >
               Our Values{" "}
             </p>
             <p
-              className=" font-normal text-start text-seven text-[20px] my-5"
+              className=" font-normal open-sans-regular text-start text-seven text-[20px] my-5"
               data-aos="fade-up"
             >
               {" "}
@@ -506,16 +504,17 @@ service offerings, we ensure a personalized experience.`,
           </div>
         </div>
       </div>
+
       {/* Customer */}
       <div  id="Testimonials" className="w-screen py-10 px-8 bg-elven">
         <p
-          className="text-center font-normal text-six text-[48px]"
+          className="text-center judson-regular  font-normal text-six text-[48px]"
           data-aos="zoom-in-up"
         >
           Customer Testimonials{" "}
         </p>
         <p
-          className="text-center font-normal text-seven text-[24px] my-5"
+          className="text-center open-sans-regular font-normal text-seven text-[24px] my-5"
           data-aos="fade-up"
         >
           At sea go, we proudly serve tourist villages worldwide. Hear from our
@@ -529,7 +528,7 @@ service offerings, we ensure a personalized experience.`,
           <div className="w-120  h-50 lg:h-100 bg-elven flex gap-5 items-center justify-center p-2">
             <img src={man} />
             <div>
-              <div className="text-four text-2xl py-2">★★★★☆</div>
+              <div className="text-one text-2xl py-2">★★★★☆</div>
               <p
                 className=" text-start w-full font-normal text-seven text-[18px]"
                 data-aos="zoom-in-up"
@@ -549,7 +548,7 @@ service offerings, we ensure a personalized experience.`,
           <div className="w-120 h-50 lg:h-100 bg-elven flex gap-5 items-center justify-center p-2">
             <img src={mantwo} />
             <div>
-              <div className="text-four text-2xl py-2">★★★★★</div>
+              <div className="text-one text-2xl py-2">★★★★★</div>
               <p
                 className=" text-start w-full font-normal text-seven text-[18px]"
                 data-aos="zoom-in-up"
@@ -569,7 +568,7 @@ service offerings, we ensure a personalized experience.`,
           <div className="w-120 h-50 lg:h-100 bg-elven flex gap-5 items-center justify-center p-2">
             <img src={manthree} />
             <div>
-              <div className="text-four text-2xl py-2">★★★★★</div>
+              <div className="text-one text-2xl py-2">★★★★★</div>
               <p
                 className=" text-start w-full font-normal text-seven text-[18px]"
                 data-aos="zoom-in-up"
@@ -590,19 +589,19 @@ service offerings, we ensure a personalized experience.`,
       {/*Frequently Asked Questions      */}
       <div  className="w-screen py-10   overflow-hidden">
         <p
-          className="text-center font-normal text-six text-[48px]"
+          className="text-center judson-regular font-normal text-six text-[48px]"
           data-aos="zoom-in-up"
         >
           Frequently Asked Questions{" "}
         </p>
         <p
-          className="text-center font-normal text-black text-[24px] my-5"
+          className="text-center  open-sans-regular font-normal text-black text-[24px] my-5"
           data-aos="fade-up"
         >
           We’re here to answer your questions and help you better understand our
           services
         </p>
-        <div className="w-full px-10 mx-auto flex flex-col gap-5">
+        <div className="w-full px-10 mx-auto flex flex-col  open-sans-regular gap-5">
           {data.map((item, index) => {
             const isOpen = openIndex === index;
 
@@ -633,64 +632,30 @@ service offerings, we ensure a personalized experience.`,
         </div>
       </div>
       {/* boxs */}
-      <div className="w-screen py-10 px-8 flex gap-30 flex-wrap justify-center bg-elven">
+      <div className="w-screen py-10 px-8 flex gap-30 flex-wrap open-sans-regular justify-center bg-elven">
         <div className="flex flex-col  ">
           <p className=" text-[20px] font-normal">Supported Villages</p>
-          <p className="text-four text-center text-[48px] font-normal">50+ </p>
+          <p className="text-one text-center text-[48px] font-normal">50+ </p>
         </div>
         <div className="flex flex-col ">
           <p className=" text-[20px] font-normal">Active Users </p>
-          <p className="text-four text-center text-[48px] font-normal">10K+ </p>
+          <p className="text-one text-center text-[48px] font-normal">10K+ </p>
         </div>
         <div className="flex flex-col ">
           <p className=" text-[20px] font-normal">Service Providers </p>
-          <p className="text-four text-center text-[48px] font-normal">500+ </p>
+          <p className="text-one text-center text-[48px] font-normal">500+ </p>
         </div>
         <div className="flex flex-col ">
           <p className=" text-[20px] font-normal">Check-ins Recorded </p>
-          <p className="text-four  text-center text-[48px] font-normal">30K+ </p>
+          <p className="text-one  text-center text-[48px] font-normal">30K+ </p>
         </div>
        
         <div className="flex flex-col ">
           <p className=" text-[20px] font-normal">User Satisfaction </p>
-          <p className="text-four  text-center text-[48px] font-normal">95% </p>
+          <p className="text-one  text-center text-[48px] font-normal">95% </p>
         </div>
       </div>
-      {/* Contact Us */}
- <div className="flex flex-col lg:flex-row min-h-screen "
-           data-aos="fade-down"
-
- >
-  {/* صورة القسم */}
-  <div id='Contact' className="w-full lg:w-1/2 h-64 lg:h-screen">
-    <img src={chaer} className="w-full h-full object-cover" alt="Contact Us Image" />
-  </div>
-
-  {/* الفورم */}
-  <div className="w-full lg:w-1/2 flex flex-col items-center justify-center px-6 pt-2 lg:px-10">
-    <p className="text-four font-normal w-full text-start text-[32px] lg:text-[48px] mb-4">Contact Us</p>
-    <p className="text-seven font-normal text-[18px] lg:text-[24px] mb-4">
-      <span className="text-four">sea go</span> makes it simple for tourist villages and service providers
-      to connect with visitors and improve operations. Follow these easy steps to get started.
-    </p>
-
-    {/* الفورم الكامل */}
-    <div className="w-full">
-      <label className="text-seven text-[14px] font-normal w-full text-start py-2 block">Name:</label>
-      <input type="text" placeholder="Your Name" className="w-full rounded-3xl p-3 border mb-2" />
-
-      <label className="text-seven text-[14px] font-normal w-full text-start py-2 block">Email:</label>
-      <input type="email" placeholder="Your Email" className="w-full rounded-3xl p-3 border mb-2" />
-
-      <label className="text-seven text-[14px] font-normal w-full text-start py-2 block">Phone:</label>
-      <input type="number" placeholder="Your Phone" className="w-full rounded-3xl p-3 border mb-2" />
-
-      <label className="text-seven text-[14px] font-normal w-full text-start py-2 block">Message:</label>
-      <textarea placeholder="How can we help?" className="w-full rounded-3xl p-3 border h-24 resize-none" />
-    </div>
-    <button className="bg-fourteen px-5 py-2 text-white text-[24px] font-normal rounded-3xl hover:scale-90 delay-100 transform transition ease-in w-100 mt-6 mb-2">Send Message</button>
-  </div>
-</div>
+    
 <div   data-aos="fade-down">
 <Footer/>
 </div>
