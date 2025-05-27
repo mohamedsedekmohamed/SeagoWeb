@@ -4,6 +4,7 @@ import User from "./pages/User";
 import GatekeeperApp from "./pages/GatekeeperApp";
 import VillageDashboard from "./pages/VillageDashboard";
 import ProviderDashboard  from './pages/ProviderDashboard'
+import Suppert from "./pages/Suppert";
 import './App.css';
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/gatekeeperApp" element={<GatekeeperApp />} />
         <Route path="/villageDashboard" element={<VillageDashboard />} />
         <Route path="/providerDashboard" element={<ProviderDashboard />} />
+        <Route path="/Suppert" element={<Suppert />} />
        
       </Routes>
     </Router>
