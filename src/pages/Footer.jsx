@@ -161,7 +161,7 @@ enhance visitor satisfaction      </p>
 
   {/* Bottom Bar */}
   <div className="border-t border-seven mt-1 pt-4 pl-5 text-[12px] text-seven">
-    © {new Date().getFullYear()} © 2025 sea go. All rights reserved.
+    © {new Date().getFullYear()} sea go. All rights reserved.
   </div>
 </footer>
   )

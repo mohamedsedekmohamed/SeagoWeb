@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Filed from '../Ui/Filed'
 import Footer  from "./Footer";
+import userpic from '../assets/userpic.png'
 const User = () => {
    useEffect(() => {
       AOS.init({ duration: 1000, once: true });
@@ -130,7 +131,7 @@ Edit Options:   </p>
   </div>
 
   <div className="flex-1 flex items-center justify-center relative   lg:mt-0" data-aos="zoom-out-right">
-    <img className="object-cover w-full lg:min-w-[250px]  lg:max-w-[500px]  z-20" src={phonepic} alt="Village Experience" />
+    <img className="object-cover w-full lg:min-w-[250px]  lg:max-w-[500px]  z-20" src={userpic} alt="Village Experience" />
     <div className="absolute  w-0 h-0 lg:w-[800px] lg:h-200 left-10 bg-white rounded-full top-1/3  z-10"></div>
   </div>
     </div>
