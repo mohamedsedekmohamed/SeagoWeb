@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import User from "./pages/user";
+import User from "./pages/User";
 import GatekeeperApp from "./pages/GatekeeperApp";
 import VillageDashboard from "./pages/VillageDashboard";
 import ProviderDashboard  from './pages/ProviderDashboard'
