@@ -25,7 +25,7 @@ import lloge from '../assets/lloge.png'
 
       </li>
               <li>
-                <strong>Phone Number:</strong> <a href="tel:+01200908090" className="text-one hover:underline">+01200908090</a>
+                <strong>Phone Number:</strong> <a href="tel:+01200908090" className="text-one hover:underline">+201200908090</a>
               </li>
             </ul>
           </div>
